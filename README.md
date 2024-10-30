@@ -1,4 +1,4 @@
-# Group 9 final project
+# Final project: Automated Cell Phenotyping via Machine Learning Approaches
 
 Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Single-cell Transcriptomics Data
 
