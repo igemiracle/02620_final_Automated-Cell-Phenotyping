@@ -2,11 +2,11 @@
 
 Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Single-cell Transcriptomics Data
 
-
+![phenotype](./figs/1.png)
 ## Getting Started
 
 ### Data
-
+![dataset](./figs/table.png)
 * Download the three [datasets](https://drive.google.com/drive/folders/1-SKsM-LK9L2UCy271y6QzFN6_-I1M3AZ?usp=sharing)
 * Majority of the intermediate files are provided in this repo. However, Github doesn't allow uploading files over 100MB
 
@@ -42,7 +42,23 @@ Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Sin
 * Second, run **Final_Project_SVM_XGB_ActiveLearning.ipynb**
 * Finally, run **Final_Project_Results.ipynb** to get visualization
 
+## Methodology
+![workflow](./figs/method.png)
 
+## Evaluation
+![Figure1](./figs/f1.png)
+**Figure1** Performance comparison of models for cell identification using different scRNA-seq datasets. Heatmap of the average F1-scores across different cell populations per model (rows) per dataset (columns).
+![Figure2](./figs/activelearning.png)
+**Figure2** Test Accuracy across sampling dataset until 33% with error bar using Uncertainty Batch Sampling and random batch sampling with base learner XGBoost.
+
+![Figure3](./figs/testerrors.png)
+**Figure3** Training and Test Errors for SVM and XGBoost across different scRNA-seq datasets.
+
+## Conclusion
+ - We compared the cell type classification performance of classic machine learning models based on different scRNA-seq datasets.
+ - Generally, all supervised classifiers perform better compared to the unsupervised clustering method. 
+- Taken together, we recommend the use of the SVM model, since it has the best performance. 
+- Our evaluation results could be used as a reference for bioinformatics or experimental researchers to choose an appropriate machine learning-based classifier models depending on the dataset setup at hand.
 
 ## Authors
 
