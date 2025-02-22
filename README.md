@@ -51,6 +51,7 @@ Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Sin
 
 **Figure1** Performance comparison of models for cell identification using different scRNA-seq datasets. Heatmap of the average F1-scores across different cell populations per model (rows) per dataset (columns).
 <img src="./figs/activelearning.png" alt="Figure2" width="400"/>
+
 **Figure2** Test Accuracy across sampling dataset until 33% with error bar using Uncertainty Batch Sampling and random batch sampling with base learner XGBoost.
 
 <img src="./figs/testerrors.png" alt="Figure3" width="400"/>
