@@ -2,7 +2,8 @@
 
 Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Single-cell Transcriptomics Data
 
-![phenotype](./figs/1.png)
+<img src="./figs/1.png" alt="phenotype" width="200"/>
+
 ## Getting Started
 
 ### Data
@@ -46,12 +47,12 @@ Automated Cell Phenotyping via Machine Learning Approaches: An Evaluation on Sin
 ![workflow](./figs/method.png)
 
 ## Evaluation
-![Figure1](./figs/f1.png)
+![Figure1](./figs/f1.png){ width=50% }
 **Figure1** Performance comparison of models for cell identification using different scRNA-seq datasets. Heatmap of the average F1-scores across different cell populations per model (rows) per dataset (columns).
-![Figure2](./figs/activelearning.png)
+![Figure2](./figs/activelearning.png){ width=70% }
 **Figure2** Test Accuracy across sampling dataset until 33% with error bar using Uncertainty Batch Sampling and random batch sampling with base learner XGBoost.
 
-![Figure3](./figs/testerrors.png)
+![Figure3](./figs/testerrors.png){ width=60% }
 **Figure3** Training and Test Errors for SVM and XGBoost across different scRNA-seq datasets.
 
 ## Conclusion
